@@ -1,0 +1,43 @@
+step 1
+-downloaded individual deep lab folder from git
+
+
+
+step 2 Installation of dependencies
+My machine was already configured so i didnt had to install dependencies ,but for the task following are steps:
+-pip3 install tensorflow == 1.5
+-pip3 install numpy
+-pip3 install jupyter 
+-pip3 install matplotlib
+-pip3 install pil
+
+
+step 3 
+
+
+
+Task 1
+Segment out given images
+
+Solution:
+-images from url can also be segmented out 
+-changed a code a little so that images stored in file(root folder)
+can also be used for application of segmentation
+-downloaded two images from email and stored in the root directory
+
+Task 2
+apply segmentation to the given video
+
+errors whil coding
+-video frame has to be converted to image(jpg) as MODEL.run() takes jpg image instead of array 
+
+
+
+Task 3 
+Application of preproccessing on images and video
+I have applied bluring and sharpening of images.
+Although results of preprocessing might not be visible but through experimentation during my thesis 
+I am confidenet that sharpeing of images/frame does give slightly better segmentation result.
+
+
+Complete code is being shared via .ipynb.
